@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(#ffc8f1,#ffffff) no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+.container {
+    margin: 25% 25%;
+    padding:3rem;
+    background: linear-gradient(aliceblue,#00668b);
+    border-radius: 6px;
+}
+.container h2 ,
+button{
+    padding: 1rem;
+}
+.container h2  {
+    color: #479aa0;
+}
+.container span {
+    color: #ffffff;
+}
+.container button {
+    background-color: #ffffff;
+    border: #2f5869 1px solid;
+    color: #00668b;
+    height:5vh;
+    width:5vw;
+    text-align: center;
+    transition: .4s;
+}
+.container button:hover {
+    height:6vh;
+    width:6vw;
+    background-color: #00668b;
+    color: #ffffff;
+    border: #00668b 1px solid;
+    border-radius: 6px;
+}
